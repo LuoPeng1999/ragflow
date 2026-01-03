@@ -7,7 +7,7 @@ admin:
 mysql:
   name: 'rag_flow'
   user: 'root'
-  password: 'infini_rag_flow'
+  password: '123456'
   host: 'localhost'
   port: 5455
   max_connections: 900
@@ -15,18 +15,18 @@ mysql:
   max_allowed_packet: 1073741824
 minio:
   user: 'rag_flow'
-  password: 'infini_rag_flow'
+  password: '12345678'
   host: 'localhost:9000'
   bucket: ''
   prefix_path: ''
 es:
   hosts: 'http://localhost:1200'
   username: 'elastic'
-  password: 'infini_rag_flow'
+  password: '123456'
 os:
   hosts: 'http://localhost:1201'
   username: 'admin'
-  password: 'infini_rag_flow_OS_01'
+  password: 'Admin@123'
 infinity:
   uri: 'localhost:23817'
   db_name: 'default_db'
@@ -34,14 +34,14 @@ oceanbase:
   scheme: 'oceanbase' # set 'mysql' to create connection using mysql config
   config:
     db_name: 'test'
-    user: 'root@ragflow'
-    password: 'infini_rag_flow'
+    user: 'root'
+    password: '123456'
     host: 'localhost'
     port: 2881
 redis:
   db: 1
   username: ''
-  password: 'infini_rag_flow'
+  password: '123456'
   host: 'localhost:6379'
 task_executor:
   message_queue_type: 'redis'
